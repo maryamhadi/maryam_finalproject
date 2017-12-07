@@ -1,0 +1,33 @@
+input, textarea, button {
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-size: 24px;
+}
+
+input.formInput,
+textarea.formTextArea {
+  border: 1px solid black;
+  padding: 16px;
+}
+
+input.formInput:focus,
+textarea.formTextArea:focus {
+  outline: 3px solid #DE268E;
+}
+
+.form {}
+
+.formRow {
+  margin-bottom: 24px;
+}
+
+button.submit {
+  padding: 16px 24px;
+  color: white;
+  background-color: #DE268E;
+  font-weight: bold;
+}
